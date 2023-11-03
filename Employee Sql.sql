@@ -1,5 +1,7 @@
 create database employecrud;
+
 use employecrud;
+
 CREATE TABLE employee (
     emp_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(255) NOT NULL,
@@ -8,6 +10,8 @@ CREATE TABLE employee (
     address VARCHAR(255),
     date_of_birth DATE
 );
+
+
 Select * from employee;
 INSERT INTO employee (first_name, last_name, phone_number, address, date_of_birth)
 VALUES
